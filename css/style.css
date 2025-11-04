@@ -28,8 +28,8 @@ footer {
 
 }
 
-.ape-rio {
-    margin-left: 10% !important;
+.ap-rio {
+    margin-left: 30% !important;
     margin-right: 10% !important;
     justify-content: center !important;
     margin: 1% !important;
@@ -63,4 +63,25 @@ footer {
 
 .mapa {
     margin-top: 5% !important;
+}
+
+/* Garantir altura consistente para todas as imagens e vídeo */
+.car-img {
+    height: 500px;
+    /* Defina a altura que você quer */
+    object-fit: cover;
+}
+
+.ratio-16x9 {
+    height: 500px;
+    /* Mesma altura das imagens */
+}
+
+/* Ou use altura responsiva */
+@media (max-width: 768px) {
+
+    .car-img,
+    .ratio-16x9 {
+        height: 300px;
+    }
 }
